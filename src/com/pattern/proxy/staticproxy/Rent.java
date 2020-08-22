@@ -5,5 +5,5 @@ package com.pattern.proxy.staticproxy;
  * @create: 2020-03-17 09:02
  **/
 public interface Rent {
-    public  void rent();
+    public void rent();
 }

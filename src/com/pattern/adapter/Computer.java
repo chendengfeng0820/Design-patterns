@@ -5,7 +5,7 @@ package com.pattern.adapter;
  * @create: 2020-03-22 01:24
  **/
 public class Computer {
-	public void net(AdapterImpl adapter){
-		adapter.handleRequest();
-	}
+    public void net(AdapterImpl adapter) {
+        adapter.handleRequest();
+    }
 }

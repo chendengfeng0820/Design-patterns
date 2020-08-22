@@ -1,4 +1,4 @@
-package com.pattern.yuanxing;
+package com.pattern.yuanxing.shallow_cloning;
 
 import java.util.Date;
 
@@ -6,7 +6,7 @@ import java.util.Date;
  * @author: cdf
  * @create: 2020-03-17 08:19
  **/
-public class YuanXing implements Cloneable{
+public class Video implements Cloneable {
     private String name;
     private Date date;
 
@@ -15,7 +15,7 @@ public class YuanXing implements Cloneable{
         return super.clone();
     }
 
-    public YuanXing(String name, Date date) {
+    public Video(String name, Date date) {
         this.name = name;
         this.date = date;
     }

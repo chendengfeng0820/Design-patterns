@@ -5,5 +5,5 @@ package com.pattern.decorate;
  * @create: 2020-03-22 02:43
  **/
 public interface ICar {
-	void move();
+    void move();
 }

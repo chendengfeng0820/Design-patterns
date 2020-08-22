@@ -5,8 +5,8 @@ package com.pattern.decorate;
  * @create: 2020-03-22 02:44
  **/
 public class Car implements ICar {
-	@Override
-	public void move() {
-		System.out.println("陆地上跑");
-	}
+    @Override
+    public void move() {
+        System.out.println("陆地上跑");
+    }
 }

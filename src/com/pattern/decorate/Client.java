@@ -7,16 +7,16 @@ import java.util.ArrayList;
  * @create: 2020-03-22 02:50
  **/
 public class Client {
-	public static void main(String[] args) {
-		Car car=new Car();
-		FlyCar flyCar=new FlyCar(car);
-		flyCar.move();
+    public static void main(String[] args) {
+        Car car = new Car();
+        FlyCar flyCar = new FlyCar(car);
+        flyCar.move();
 
-		System.out.println("==========");
+        System.out.println("==========");
 
-		WaterCar waterCar=new WaterCar(new FlyCar(car));
-		waterCar.move();
+        WaterCar waterCar = new WaterCar(new FlyCar(car));
+        waterCar.move();
 
 
-	}
+    }
 }

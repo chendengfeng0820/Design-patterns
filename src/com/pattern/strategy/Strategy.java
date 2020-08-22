@@ -7,5 +7,5 @@ package com.pattern.strategy;
  * 支付方式
  **/
 public interface Strategy {
-	public double getMoney(double money);
+    public double getMoney(double money);
 }

@@ -6,17 +6,17 @@ package com.pattern.decorate;
  **/
 public class FlyCar extends SuperCar {
 
-	public FlyCar(ICar car) {
-		super(car);
-	}
+    public FlyCar(ICar car) {
+        super(car);
+    }
 
-	public void fly(){
-		System.out.println("天上飞");
-	}
+    public void fly() {
+        System.out.println("天上飞");
+    }
 
-	@Override
-	public void move() {
-		super.move();
-		fly();
-	}
+    @Override
+    public void move() {
+        super.move();
+        fly();
+    }
 }

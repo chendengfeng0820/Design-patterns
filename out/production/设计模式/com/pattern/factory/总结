@@ -1,0 +1,26 @@
+
+简单工厂
+    实现： Car的接口  具体实现类  Aodi  特斯拉  五菱宏光
+    工厂类  static create（String name） 方法  return new 特斯拉  五菱 奥迪
+    调用 ： Carfactory.caeate("五菱");  创建五菱
+
+    优点：简便易懂  缺点：新增一个实现需要再改动工厂方法代码  不符合开闭原则
+
+工厂方法：
+    实现：  Car接口  实现类  奥迪 特斯拉 五菱
+           Carfactory工厂  奥迪工厂  特斯拉工厂  五菱工厂  implents carfactory  new Car
+           调用：  new aodiFactory  new 车
+
+    优点：便于添加新实现类以及自己的工厂   缺点：太多 麻烦
+
+抽象工厂：
+    实现：  phone接口  小米手机 华为手机   computer接口   小米电脑  华为电脑
+           抽象工厂  Phone createphone（）   Computer createcomputer（）
+           小米工厂 创建小米手机和小米电脑   华为工厂 创建华为手机和华为电脑
+           调用   newxiaomifacctory  。getcreatephone
+
+    产品等级：华为手机  小米手机  同一个产品等级
+    产品族  ：小米手机  小米电脑  同一个产品族
+    每一个工厂实现 对应的是一个产品族
+
+    优点：不用关心创建的细节  同一个产品族一起创建      缺点：太多 产品族拓展困难

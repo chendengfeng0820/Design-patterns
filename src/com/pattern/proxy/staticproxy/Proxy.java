@@ -4,7 +4,7 @@ package com.pattern.proxy.staticproxy;
  * @author: cdf
  * @create: 2020-03-17 09:02
  **/
-public class Proxy implements Rent{
+public class Proxy implements Rent {
 
     private Host host;
 
